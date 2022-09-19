@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
 
@@ -38,16 +40,17 @@ public class BaseClass {
 	
 	
 	public static WebDriver SetUp() {
-		return Browser("edge");
+		return Browser("chrome");
 	}
 	
 	
-	public static void Login(WebDriver driver) throws InterruptedException {
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	public static void Login(WebDriver driver)  {
 		driver.findElement(By.xpath("(//div/div[text()='Log in'])")).click();
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("mkparuchisom@gmail.com");
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Password@1");
-		Thread.sleep(500);
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Log In']")));
 		driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
 	}
 	

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VbizTest.SignupPageTest">
+      <class name="VbizTest.MakePaymentTest">
         <methods>
-          <include name="Verify_SignUp_Without_Registered_Company"/>
+          <include name="Verify_Other_Account_Add_Edit_And_Delete_Beneficiary"/>
         </methods>
-      </class> <!-- VbizTest.SignupPageTest -->
+      </class> <!-- VbizTest.MakePaymentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

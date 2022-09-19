@@ -44,7 +44,7 @@ public class LoginPageTest {
 	
 	
 	@Test
-	public void Verify_Login_With_Field() throws InterruptedException {
+	public void Verify_Login_With_Empty_Field() throws InterruptedException {
 		WebDriver driver = BaseClass.SetUp();
 		
 		LoginPage LP = new LoginPage(driver);

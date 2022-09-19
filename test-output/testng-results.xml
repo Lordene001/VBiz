@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T09:23:11 WAT" name="Default suite" finished-at="2022-09-15T09:23:49 WAT" duration-ms="37418">
+  <suite started-at="2022-09-19T11:59:56 WAT" name="Default suite" finished-at="2022-09-19T12:00:31 WAT" duration-ms="35181">
     <groups>
     </groups>
-    <test started-at="2022-09-15T09:23:11 WAT" name="Default test" finished-at="2022-09-15T09:23:49 WAT" duration-ms="37418">
-      <class name="VbizTest.SignupPageTest">
-        <test-method signature="Verify_SignUp_With_Corporate_Account()[pri:0, instance:VbizTest.SignupPageTest@6c1a5b54]" started-at="2022-09-15T09:23:11 WAT" name="Verify_SignUp_With_Corporate_Account" finished-at="2022-09-15T09:23:22 WAT" duration-ms="10275" status="PASS">
+    <test started-at="2022-09-19T11:59:56 WAT" name="Default test" finished-at="2022-09-19T12:00:31 WAT" duration-ms="35181">
+      <class name="VbizTest.MakePaymentTest">
+        <test-method signature="Verify_Other_Account_Add_Edit_And_Delete_Beneficiary()[pri:0, instance:VbizTest.MakePaymentTest@13e344d]" started-at="2022-09-19T11:59:56 WAT" name="Verify_Other_Account_Add_Edit_And_Delete_Beneficiary" finished-at="2022-09-19T12:00:31 WAT" duration-ms="35071" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_SignUp_With_Corporate_Account -->
-        <test-method signature="Verify_SignUp_With_Personal_Account()[pri:0, instance:VbizTest.SignupPageTest@6c1a5b54]" started-at="2022-09-15T09:23:22 WAT" name="Verify_SignUp_With_Personal_Account" finished-at="2022-09-15T09:23:29 WAT" duration-ms="7548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_SignUp_With_Personal_Account -->
-        <test-method signature="Verify_SignUp_With_Registered_Company()[pri:0, instance:VbizTest.SignupPageTest@6c1a5b54]" started-at="2022-09-15T09:23:29 WAT" name="Verify_SignUp_With_Registered_Company" finished-at="2022-09-15T09:23:39 WAT" duration-ms="10068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_SignUp_With_Registered_Company -->
-        <test-method signature="Verify_SignUp_Without_Registered_Company()[pri:0, instance:VbizTest.SignupPageTest@6c1a5b54]" started-at="2022-09-15T09:23:39 WAT" name="Verify_SignUp_Without_Registered_Company" finished-at="2022-09-15T09:23:49 WAT" duration-ms="9489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_SignUp_Without_Registered_Company -->
-      </class> <!-- VbizTest.SignupPageTest -->
+        </test-method> <!-- Verify_Other_Account_Add_Edit_And_Delete_Beneficiary -->
+      </class> <!-- VbizTest.MakePaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
